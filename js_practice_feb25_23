@@ -1,0 +1,77 @@
+console.log("Hello from JavaScript");
+
+/*
+notes 
+undefined is undefined,
+null is nothing,
+boolean is true or false
+string is text
+symbol is an immuttable primitve and unique value
+object can store lots of  different key value pairs
+*/
+
+var myName = "Jeff"
+
+// difference of assigning variables and declaring them
+//end all lines in JS with a semicolon, but its customary to do it so its obv where end of line is
+
+var a; // declaring a variable exists, prints null if console.log(a)
+var b = 2; // assigning 2 to b
+a = 7 //assigned 7 to a
+b = a //assigned the contents to a to b, changed. 
+
+// var can change, const cannot change or throws error
+
+var a = 9; //var a is declaring it, = 9 is initializing it
+
+// can combine strings similar to in python
+
+// declarations are case sensitive, it is customary to use camelcase
+
+var studlyCapVar 
+STUDLYCAPVAR = 5  // wont work
+studlyCapVar = 5 // works
+
+//finding a remainder
+
+var remainder;
+remainder = 11 % 3;
+console.log(remainder) // logs 2
+
+//instead of
+a = a + 12
+// can do
+a += 12
+// or
+a -= 12
+
+//to use quotation marks within string, either use backquotes ` or single quotes ' or use a forward slash before the quotation mark within the string
+
+/*
+
+CODE    OUTPUT
+\'      single quote
+\"      double quote
+\\      backslash
+\n      new line
+\r      carriage return
+\t      tab
+\b      backspace
+\f      form feed
+
+*/
+
+// use to find length of a strring
+var lastName = "Schroeder"
+var lengthOf = lastName.length()
+console.log(lengthOf)
+
+// use brackts to get a character at certain index of string
+
+var firstLetterOfName = ""
+var firstName = "Jeff"
+firstLetterOfName = firstName[0]
+
+// can NOT change single character of string using bracket indexing
+
+// .push for an array adds something onto the arrway.
